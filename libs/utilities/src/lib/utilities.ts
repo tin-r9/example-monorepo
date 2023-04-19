@@ -1,0 +1,1 @@
+export const example1 = '👽🔥 hola locura 🔥👽';
