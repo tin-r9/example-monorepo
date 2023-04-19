@@ -1,1 +1,1 @@
-export const example1 = '👽🔥 hola locura 🔥👽';
+export const example1 = '👽🔥 hola locura estoy en todas partes 🔥👽';
