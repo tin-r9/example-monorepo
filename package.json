@@ -2,7 +2,9 @@
   "name": "example-monorepo",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.2.0",
@@ -36,6 +38,7 @@
     "@nrwl/nx-cloud": "latest",
     "@nrwl/web": "15.9.2",
     "@nrwl/workspace": "15.9.2",
+    "@nx-dotnet/core": "^1.22.0",
     "@schematics/angular": "~15.2.0",
     "@types/jest": "^29.4.0",
     "@types/node": "16.11.7",

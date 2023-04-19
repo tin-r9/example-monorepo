@@ -4,11 +4,13 @@ import { RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { appRoutes } from "./app.routes";
 import { NxWelcomeComponent } from "./nx-welcome.component";
+import { UtilitiesModule } from "../../../../libs/utilities/src";
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [
     BrowserModule,
+    UtilitiesModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: "enabledBlocking" }),
   ],
   providers: [],

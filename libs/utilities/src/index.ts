@@ -1,1 +1,3 @@
-export * from './lib/utilities';
+export * from './lib/auxs';
+export * from './lib/utilities.module';
+

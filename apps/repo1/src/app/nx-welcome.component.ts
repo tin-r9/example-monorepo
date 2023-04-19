@@ -423,6 +423,7 @@ import { example1 } from "@example-monorepo/utilities";
             <span>{{title}}</span>
             Welcome repo1 👋
           </h1>
+          <example-monorepo-shared></example-monorepo-shared>
         </div>
   `,
   styles: [],

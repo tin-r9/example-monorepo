@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { example1 } from '../../../../libs/utilities/src/lib/utilities';
+import { example1 } from '../../../../libs/utilities/src/lib/auxs';
 
 @Component({
   selector: 'example-monorepo-nx-welcome',
@@ -423,6 +423,7 @@ import { example1 } from '../../../../libs/utilities/src/lib/utilities';
             <span> {{titte}}, </span>
             Welcome repo2 👋
           </h1>
+          <example-monorepo-shared></example-monorepo-shared>
         </div>
   `,
   styles: [],
